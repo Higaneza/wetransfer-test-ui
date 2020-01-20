@@ -1,0 +1,9 @@
+.nav {
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+
+.nav .logo {
+  font-weight: 800;
+}

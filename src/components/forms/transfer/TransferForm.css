@@ -1,0 +1,219 @@
+.transfer {
+  padding: 20px 0 40px 0;
+}
+
+.upload__files {
+  margin-top: 20px;
+}
+
+.selected__files {
+  background-color: #f7f9fa;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 10px 20px;
+}
+
+.selected__files .file {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+  color: #17181a;
+  margin: 5px 5px 0 0;
+  padding: 10px 20px 10px 0;
+}
+
+.selected__files .file .info {
+  vertical-align: middle;
+}
+
+.selected__files .file .remove {
+  font-size: 12px;
+  padding-right: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  color: #409fff;
+  vertical-align: middle;
+}
+
+.selected__files .file .info .name {
+  display: block;
+  font-size: 14px;
+}
+
+.selected__files .file .info .size {
+  display: block;
+  font-size: 14px;
+}
+
+.add__files {
+  margin-bottom: 20px;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px dashed #409fff;
+  color: #409fff;
+}
+
+.add__files:hover {
+  border: 1px dashed #cccccc;
+  color: #cccccc;
+}
+
+.add__files .plus {
+  font-size: 1.2em;
+  font-weight: 100;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.add__files .label {
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.add__more__files {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #409fff;
+}
+
+.limit__info {
+  width: 100%;
+  font-size: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.selected__files .info {
+  font-size: 12px;
+}
+
+.add__more__files .plus {
+  font-size: 16px;
+  font-weight: 100;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.add__more__files .label {
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.selected__emails {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.selected__emails .label {
+  font-size: 14px;
+}
+
+.selected__emails .remove {
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.selected__emails .remove:hover {
+  color: #409fff;
+}
+
+.recipient {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  font-size: 0.875em;
+  font-weight: 400;
+  background: #e8ebed;
+  color: #17181a;
+  margin: 5px 5px 0 0;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.transfer__form {
+  padding: 0 20px 20px 20px;
+}
+
+.transfer__fields {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  width: 17em;
+  height: 30em;
+  overflow: auto;
+  border-radius: 15px;
+  /* border-bottom-right-radius: 15px; */
+  margin-top: 1em;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.transfer__input__wraper {
+  margin-bottom: 30px;
+}
+
+.transfer__submit {
+  border: 1px solid #409fff;
+  padding: 10px 50px;
+  background-color: #409fff;
+  color: #ffffff;
+  border-radius: 1.5em;
+  cursor: pointer;
+}
+
+.transfer__submit:hover {
+  background-color: #ffffff;
+  border: 1px solid #409fff;
+  color: #409fff;
+}
+
+.upload__progress {
+  padding: 20px 0;
+  display: block;
+}
+
+.upload__progress .progress {
+  display: block;
+  font-size: 25;
+  font-weight: 800;
+  color: #409fff;
+}
+
+.upload__progress .label {
+  display: block;
+  font-size: 18;
+  font-weight: 100;
+  color: #409fff;
+  padding-bottom: 20px;
+}
+
+.upload__done {
+  display: block;
+  padding: 20px 0;
+  vertical-align: middle;
+}
+
+.upload__done .label {
+  display: block;
+  font-size: 18;
+  font-weight: 100;
+  padding-bottom: 20px;
+  color: #409fff;
+}
+
+.transfer__action {
+  border-top: 2px solid #cccccc;
+  padding: 20px 0;
+  background-color: #ffffff;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
